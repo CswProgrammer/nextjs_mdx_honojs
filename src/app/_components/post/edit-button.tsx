@@ -16,10 +16,9 @@ const Button: FC<{ id: string }> = ({ id }) => {
         const query = new URLSearchParams(searchParams.toString()).toString();
         return isNil(query) || query.length < 1 ? '' : `?${query}`;
     }, [searchParams]);
-    console.log(`跳转URL: /post-edit/${id}${getUrlQuery}`);
     return (
         <CNButton asChild className="tw-mr-3">
-            <Link href={`/post-edit/${id}${getUrlQuery}`}>
+            <Link href={`/posts/edit/${id}${getUrlQuery}`}>
                 <UserPen />
                 编辑
             </Link>

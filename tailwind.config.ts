@@ -4,7 +4,7 @@ import type { Config } from 'tailwindcss';
 export default {
     prefix: 'tw-',
     darkMode: ['selector', '[class~="dark"]'],
-    content: ['./src/app/**/*.{ts,tsx}'],
+    content: ['./src/app/**/*.{js,ts,jsx,tsx}'],
     theme: {
         container: {
             center: true,

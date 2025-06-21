@@ -1,3 +1,9 @@
 {
-  "prettier.singleQuote": true
+    "editor.formatOnSave": false,
+    // ...
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma",
+        "editor.formatOnSave": true
+    },
+    "prettier.singleQuote": true
 }

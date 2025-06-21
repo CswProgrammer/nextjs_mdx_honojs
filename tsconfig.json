@@ -3,6 +3,7 @@
         "incremental": true,
         "target": "esnext",
         "jsx": "preserve",
+        "jsxImportSource": "react",
         "lib": ["dom", "dom.iterable", "esnext"],
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
@@ -13,7 +14,7 @@
             "@/app/_components/*": ["./src/app/_components/*"]
         },
         "resolveJsonModule": true,
-        "types": ["react", "react-dom"],
+        "types": ["react", "react-dom", "node"],
         "allowJs": true,
         "strict": true,
         "strictBindCallApply": false,

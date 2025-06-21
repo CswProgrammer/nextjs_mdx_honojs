@@ -24,7 +24,6 @@ export default antfu(
             'pnpm-lock.yaml',
             'package-lock.json',
             'next-env.d.ts',
-            'src/database/db.json',
         ],
     },
     {
@@ -53,7 +52,6 @@ export default antfu(
             'react/no-leaked-conditional-rendering': 'off',
             'react/no-forward-ref': 'off',
             'jsdoc/check-param-names': 'off',
-            quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
         },
     },
     ...tailwind.configs['flat/recommended'],
